@@ -33,7 +33,6 @@
     "url": "https://github.com/dirigeants/util"
   },
   "ava": {
-    "compileEnhancements": false,
     "extensions": [
       "ts"
     ],
