@@ -7,7 +7,7 @@
 	"children": [
 		{
 			"id": 1,
-			"name": "\"index\"",
+			"name": "\"src/index\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -43,7 +43,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "index.ts",
+							"fileName": "src/index.ts",
 							"line": 4,
 							"character": 27
 						}
@@ -61,7 +61,24 @@
 			],
 			"sources": [
 				{
-					"fileName": "index.ts",
+					"fileName": "src/index.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "\"test/Util\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/util-ts-template/util-ts-template/test/Util.ts",
+			"sources": [
+				{
+					"fileName": "test/Util.ts",
 					"line": 1,
 					"character": 0
 				}
@@ -73,7 +90,8 @@
 			"title": "Modules",
 			"kind": 1,
 			"children": [
-				1
+				1,
+				4
 			]
 		}
 	]
